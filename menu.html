@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafe Menu</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;        /* ✅ Allow wrapping */
+            gap: 20px;
+        }
+
+        .menu-item {
+            flex-basis: 250px;      /* ✅ Ideal width */
+            flex-grow: 0;
+            flex-shrink: 0;
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>🍔 Cafe Fast Food Menu</h2>
+
+    <div class="menu-container">
+
+        <div class="menu-item">Burger</div>
+        <div class="menu-item">Pizza</div>
+        <div class="menu-item">Fries</div>
+        <div class="menu-item">Sandwich</div>
+        <div class="menu-item">Hot Dog</div>
+        <div class="menu-item">Pasta</div>
+        <div class="menu-item">Nuggets</div>
+        <div class="menu-item">Shawarma</div>
+
+    </div>
+
+</body>
+</html>
